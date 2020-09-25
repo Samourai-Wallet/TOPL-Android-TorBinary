@@ -14,7 +14,7 @@ This is a temporary work-around while I build a gradle plugin to more easily dis
 implementation "io.matthewnelson.topl-android:tor-binary:0.4.3.6"
 ```
 
-- In your Application module's `build.gradle` file, add the following to the `android` block:
+- In your Application module's `build.gradl e` file, add the following to the `android` block:
 ```groovy
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
